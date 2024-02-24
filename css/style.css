@@ -54,3 +54,42 @@ video{
     right:20px;
     bottom: 10px;
 }
+.logoJAJA{
+    -webkit-text-size-adjust: 100%;
+    --blue-black: #2c2f35;
+    --affluent-blue: #09affc;
+    --dark-grey: #686f7a;
+    --steel-blue: #067aca;
+    --darker-blue: #0999fc;
+    --white: white;
+    --neutral-400: #a3a3a3;
+    --neutral-300: #d4d4d4;
+    --black: black;
+    --neutral-900: #171717;
+    --smoke: #d5d7de;
+    --slate-grey: #34373d;
+    --dark-slate-grey: #33363c;
+    --white-smoke: whitesmoke;
+    --neutral-800: #262626;
+    --neutral-700: #404040;
+    --neutral-600: #525252;
+    --neutral-500: #737373;
+    --neutral-200: #e5e5e5;
+    --neutral-100: whitesmoke;
+    --neutral-50-2: #fafafa;
+    --light-grey: #ababab;
+    font-family: Red Hat Display, sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: inherit;
+    float: left;
+    color: #333;
+    text-decoration: none;
+    flex: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0;
+    transition: opacity .2s;
+}
