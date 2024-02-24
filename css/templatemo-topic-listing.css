@@ -16,10 +16,10 @@ https://templatemo.com/tm-590-topic-listing
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #1e3657;
   --custom-btn-bg-hover-color:    #0C2D57;
-  --dark-color:                   rgb(29, 31, 35);
+  --dark-color:                   rgb(8, 9, 10);
   --p-color:                      #717275;
   --border-color:                 #0C2D57;
-  --link-hover-color:             #13547a;
+  --link-hover-color:             #f8f8f8;
 
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
@@ -562,12 +562,12 @@ strong {
 }
 
 .custom-block .rounded-pill {
-  border-radius: 5px !important;
+  border-radius: 10px !important;
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   line-height: 20px;
 }
 
@@ -616,7 +616,7 @@ strong {
 }
 
 .bg-design {
-  background-color: #00B0FF;
+  background-color: #bebebe;
 }
 
 .bg-graphic {

@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 98%;
-    background: rgb(51, 54, 60);
+    background: rgb(29, 31, 35);    
     z-index: 0;
     transform: skewY(-2deg);
     transform-origin: top left;
@@ -43,4 +43,14 @@
     height: 15rem;
     border-radius: 8rem;
     
+}
+video{
+    width: 22.5rem;
+    border-radius: 1rem;
+}
+.badge{
+    position: relative;
+    
+    right:20px;
+    bottom: 10px;
 }
