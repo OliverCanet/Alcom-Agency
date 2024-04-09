@@ -67,9 +67,9 @@ video{
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
   margin: 0;
   max-width: none;
@@ -99,9 +99,9 @@ video{
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     
     margin: 0;
     max-width: none;
@@ -163,6 +163,9 @@ video{
     padding-left: 0;
     transition: opacity .2s;
 }
+.titleCalendly{
+  font-size: 24px!important;
+}
 @media screen and (max-width : 1399px){
 
   video{
@@ -219,8 +222,13 @@ video{
     width: 15.2rem;
     
   }
+  .nosotrosResp{
+    flex-direction: column;
+    text-align: center;
+  }
 
 }
+
 @media screen and (max-width : 560px){
 
   
@@ -238,14 +246,79 @@ video{
   .calendlyDiv{
     width: 240px!important;
   }
-  .service{
-    width: 55vw;
-  }
-  .serviceResponsive{
-    display: flex!important;
-    justify-content: center!important;
-  }
+  
 
   
 
+}
+@media screen and (max-width : 534px)
+{
+  .calendlyDiv{
+    width: 235px!important;
+  }
+}
+@media screen and (max-width : 525px)
+{
+  .badgeLogo{
+    display: none!important;
+  }
+}
+@media screen and (max-width : 507px)
+{
+  .calendlyDiv{
+    width: 218px!important;
+  }
+  .custom-block2{
+    
+    min-height: 55vh!important;
+  }
+}
+@media screen and (max-width : 475px)
+{
+
+  .calendlyDiv{
+    width: 200px!important;
+  }
+}
+@media screen and (max-width : 453px)
+{
+
+  .calendlyDiv{
+    width: 229px!important;
+    text-align: center;
+  }
+  .custom-block2{
+    
+    min-height: 54vh!important;
+    width: 18rem;
+  }
+  h1{
+    font-size: 2.3rem!important;
+  }
+  .titleCalendly{
+    text-align: center;
+  }
+}
+@media screen and (max-width : 438px)
+{
+  h1{
+    font-size: 2.1rem!important;
+  }
+}
+@media screen and (max-width : 392px)
+{
+  .responsiveFooter{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 1.9rem!important;
+  }
+}
+@media screen and (max-width : 364px)
+{
+  
+  h1{
+    font-size: 1.7rem!important;
+  }
 }
